@@ -19,25 +19,13 @@ import androidx.compose.ui.unit.dp
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 import org.jetbrains.compose.resources.painterResource
 
-@OptIn(ExperimentalResourceApi::class)
 @Composable
 fun App() {
     SelectionContainer {
         Column {
-
-            Text("Some")
-
-            Spacer(Modifier.height(8.dp))
-
-            Text("multiline")
-
-            Spacer(Modifier.height(8.dp))
-
+            Text("aaa")
             Text("")
-
-            Spacer(Modifier.height(8.dp))
-
-            Text("text to select in SelectionContainer")
+            Text("bbb")
         }
     }
 }
